@@ -1,5 +1,13 @@
 # IAA002 - LPA - Trabalho
 
+## Equipe 03:
+* Gustavo Costa de Souza
+* Leonardo Antonio da Rosa
+* Marcos Vinicius de Melo
+* Marcus Eneas Silveira Galvao do Rio Apa II
+* Rodrigo de Araujo
+* William de Souza Alencar
+
 ## 1 Análise Exploratória dos dados
 
 A partir da base de dados precos_carros_brasil.csv, execute as seguintes tarefas:
