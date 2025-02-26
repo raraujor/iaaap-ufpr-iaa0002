@@ -1,0 +1,33 @@
+1.f Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados encontrados na Análise Exploratória dos dados
+
+* A marca mais vendida em 2021 foi a Fiat com 44962 carros vendidos.
+* Os modelos mais vendido em 2021 foram Palio Week. Adv/Adv TRYON 1.8 mpi Flex e Focus 1.6 S/SE/SE Plus Flex 8V/16V 5p, ambos com 425 unidades vendidas.
+* O mês com mais vendas foi o de Janeiro/2021, totalizando 24260 carros.
+* O preço médio dos veículos vendidos em 2021 foi de R$ 52.756.80
+
+2.e Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item d
+
+* Os carros com maior preço médio são automáticos, exceto os carros da marca Renault.
+* A Renault tem o menor preço médio para veículos de câmbio automático.
+* Para os carros de câmbio manual, a Nissan possui os veículos com maior preço médio.
+* Já para os carros de câmbio automático, a VW - VolksWagen possui os veículos com maior preço médio.
+
+2.g Dê uma breve explicação (máximo de quatro linhas) sobre os resultados gerados no item f
+
+* Nissan e Renault não possui vendas de veículos movidos a álcool.
+* A VW - VolksWagen tem o maior preço médio para veículos a diesel.
+* A Nissan e a GM - Chevrolet apresentam as maiores médias para veículos à gasolina.
+* A GM - Chevrolet apresenta as maiores médias para veículos movidos a álcool.
+
+3.f Dê uma breve explicação (máximo de quatro linhas) sobre os resultados encontrados na análise de importância de variáveis
+* Para o modelo do experimento 1 onde foram consideradas apenas as variáveis numéricas: year_model tem uma importância grande.
+* já para o modelo do experimento 2 onde variáveis categóricas foram transformadas em numéricas pode se concluir que a importância da year_model ainda é relevanete porém outras variáveis como fuel contribuem expressivamente para o target value.
+* Para o experimento 3 conclui-se que adicionando parâmentros ao modelo não altera significativamente a importância das variáveis.
+* O experimento 5 mostra que XGBoost aumentou a importância da variável fuel.
+
+3.h Dê uma breve explicação (máximo de quatro linhas) sobre qual modelo gerou o melhor resultado e a métrica de avaliação utilizada
+
+* Analisando os experimentos do trabalho pode-se concluir que os modelos que utilizaram apenas as variáveis numéricas originais(year_of_reference e year_model), tiveram o pior desempenho, como pode ser visto no gráfico acima dos experimentos 1 e 4.
+* Os experimentos que utilizaram variáveis categórias apresentaram um aumento na acurácia de 36% para 56%.
+* Uma curiosidade que mesmo com o aumento da importância de algumas variáveis pelo modelo XGBoost a acurácia permaneceu a mesma do modelo RandomForestRegressor, apresentou apenas uma pequena melhora na MSE e MAE.
+* Adicionando parâmetros no modelo RandomForestRegressor não houve um impacto positivo no modelo pois apresentou as mesmas métricas do modelo sem parâmetros como mostrado nos experimentos 2 e 3.
