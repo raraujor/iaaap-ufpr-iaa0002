@@ -1,3 +1,10 @@
+Equipe 03
+Gustavo Costa de Souza
+Marcos Vinicius de Melo
+Marcus Eneas Silveira Galvao do Rio Apa II
+Rodrigo de Araujo
+William de Souza Alencar
+
 1.f Dê um breve explicação (máximo de quatro linhas) sobre os principais resultados encontrados na Análise Exploratória dos dados
 
 * A marca mais vendida em 2021 foi a Fiat com 44962 carros vendidos.
